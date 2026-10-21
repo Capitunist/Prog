@@ -28,7 +28,7 @@ public class Grille{
 
 	// public int setTaille(int taille){
 	// 	this.taille = taille;
-	// // recréer tableau ??? (chiant donc on abandonne setTaille())
+	// // recréer tableau ???                        (chiant donc on abandonne setTaille())
 
 	// }
 
