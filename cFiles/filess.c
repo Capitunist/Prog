@@ -1,11 +1,14 @@
 #include <stdio.h>
 
 int main(){
+
 	FILE * fichier;
-	char nom[20] = "fichierr.txt";
+	char nom[20] = "fichier.txt";
 	char temp[255];
 
-	fichier = fopen(nom,"rt"); /* lecture */
+	fichier = fopen(nom,"rt"); 
+
+	/* LECTURE */
 	if (fichier == 0){
 		printf("Probleme a l'ouverture");
 	} else {
